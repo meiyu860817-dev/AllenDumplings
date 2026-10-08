@@ -4,7 +4,7 @@
    ========================================================= */
 const SETTINGS = {
   // 訂購表單網址（Apps Script 部署後的 .../exec 網址，貼在引號中間）
-  orderUrl: '',
+  orderUrl: 'https://script.google.com/macros/s/AKfycbwWHCKlVBzPapxCwcoCak_NzDel9E4NJKZ9kCqIFjAKXBeJUSb-SYtAPbtPjU1z8Mi_/exec',
 
   // LINE 官方帳號連結，例如 'https://lin.ee/xxxxxxx'
   lineUrl: '',
