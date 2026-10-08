@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ㄟ冷水餃｜手工現包的家常美味</title>
+  <meta name="description" content="ㄟ冷水餃：每一顆都是手工現包，嚴選台灣黑豬肉與新鮮食材。台中自取、外縣市冷凍宅配。">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Huninn&family=Noto+Sans+TC:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== 上方選單 ===== -->
+  <header class="nav">
+    <a class="logo" href="#top">
+      <img src="images/favicon.svg" alt="" width="36" height="36">
+      <span>ㄟ冷水餃</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#story">故事</a>
+      <a href="#menu">菜單</a>
+      <a href="#how">怎麼訂</a>
+      <a href="#faq">問答</a>
+    </nav>
+    <a class="btn btn-small js-order" href="#">我要訂購</a>
+  </header>
+
+  <main id="top">
+
+    <!-- ===== 首屏 ===== -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="tag">🎉 被敲碗敲爆，第二團開賣！</p>
+        <h1>每一顆<br>都是<span class="hl">手工現包</span></h1>
+        <p class="lead">嚴選台灣黑豬肉、新鮮蝦仁與當季蔬菜，<br>不追求大量生產，只想讓你吃到最有溫度的家常味。</p>
+        <div class="hero-actions">
+          <a class="btn js-order" href="#">我要訂購 🥟</a>
+          <a class="btn btn-ghost" href="#menu">先看看菜單</a>
+        </div>
+      </div>
+      <div class="hero-pic">
+        <img src="images/hero.svg" alt="一盤熱騰騰的水餃">
+      </div>
+    </section>
+
+    <!-- ===== 品牌故事 ===== -->
+    <section id="story" class="section story">
+      <h2 class="section-title"><span>關於ㄟ冷水餃</span></h2>
+      <div class="story-card">
+        <p>一開始只是包給家人朋友吃的水餃，沒想到吃過的人都回來敲碗：「什麼時候還有？」</p>
+        <p>於是有了「ㄟ冷水餃」。我們堅持每一顆都手工現包，肉用台灣黑豬肉、蝦用整尾鮮蝦，菜當天洗、當天切。產量不大，但每一包都是我們自己也敢天天吃的水餃。</p>
+        <p class="sign">謝謝每一位支持ㄟ冷水餃的你 💛</p>
+      </div>
+      <ul class="promises">
+        <li><b>🤲</b><span>手工現包</span></li>
+        <li><b>🐖</b><span>台灣黑豬肉</span></li>
+        <li><b>🥬</b><span>新鮮食材</span></li>
+        <li><b>❄️</b><span>急速冷凍</span></li>
+      </ul>
+    </section>
+
+    <!-- ===== 菜單（商品由 script.js 自動產生） ===== -->
+    <section id="menu" class="section">
+      <h2 class="section-title"><span>今日菜單</span></h2>
+      <div id="productGrid" class="product-grid"></div>
+    </section>
+
+    <!-- ===== 訂購流程 ===== -->
+    <section id="how" class="section how">
+      <h2 class="section-title"><span>怎麼訂？4 步驟</span></h2>
+      <ol class="steps">
+        <li>
+          <div class="step-num">1</div>
+          <h3>填寫訂購表單</h3>
+          <p>選好口味和數量，表單會幫你算好金額。</p>
+        </li>
+        <li>
+          <div class="step-num">2</div>
+          <h3>匯款＋填後五碼</h3>
+          <p>匯款帳號在表單裡，填上後五碼方便我們核對。</p>
+        </li>
+        <li>
+          <div class="step-num">3</div>
+          <h3>手工製作中</h3>
+          <p>依訂單順序現包，約需 14～28 天，請耐心等候 🥹</p>
+        </li>
+        <li>
+          <div class="step-num">4</div>
+          <h3>LINE 約取貨</h3>
+          <p>做好後我們會用 LINE 跟你約時間取貨或寄出。</p>
+        </li>
+      </ol>
+
+      <div class="pickup">
+        <div class="pickup-box">
+          <h3>📍 台中自取</h3>
+          <p class="small">下訂後提供完整地址</p>
+          <ul class="chips">
+            <li>南屯區（近水安宮）</li>
+            <li>北屯區（近文心崇德）</li>
+            <li>東海（國際街）</li>
+            <li>南區（學府路）</li>
+            <li>Forma（精誠路）</li>
+          </ul>
+          <p class="small">時段：早上 9–12／下午 1–5／晚上 5–9</p>
+        </div>
+        <div class="pickup-box pickup-ship">
+          <h3>🚚 外縣市冷凍宅配</h3>
+          <p class="big">滿 <b>NT$ 3,000</b> 免運</p>
+          <p class="small">全程冷凍配送，收到後請立刻放進冷凍庫。</p>
+        </div>
+      </div>
+
+      <div class="center">
+        <a class="btn btn-big js-order" href="#">前往訂購表單 →</a>
+      </div>
+    </section>
+
+    <!-- ===== 常見問題 ===== -->
+    <section id="faq" class="section">
+      <h2 class="section-title"><span>常見問題</span></h2>
+      <div class="faq">
+        <details>
+          <summary>水餃要怎麼煮才好吃？</summary>
+          <p>不用退冰！水滾後直接下鍋，輕輕攪一下避免黏鍋。水再次滾開時加一碗冷水，重複 2～3 次，水餃浮起、皮變得有點透明就可以起鍋囉。</p>
+        </details>
+        <details>
+          <summary>可以冷凍保存多久？</summary>
+          <p>放冷凍庫（-18°C 以下）建議 1 個月內吃完，風味最好。拿出來的份量煮多少拿多少，避免反覆退冰。</p>
+        </details>
+        <details>
+          <summary>為什麼要等 14～28 天？</summary>
+          <p>因為每一顆都是手工現包，我們每天的產量有限，會依照訂單順序一批一批製作，確保每一包都是新鮮包好、馬上冷凍的。</p>
+        </details>
+        <details>
+          <summary>可以指定取貨日期嗎？</summary>
+          <p>表單會顯示預計可取貨的日期，做好後我們會用 LINE 跟你確認實際時間，有特別需求也可以先跟我們說。</p>
+        </details>
+        <details>
+          <summary>沒搶到這一團怎麼辦？</summary>
+          <p>加入我們的 LINE 或追蹤 IG，下一團開賣會第一時間通知你！</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- ===== 聯絡 ===== -->
+    <section id="contact" class="section contact">
+      <h2>有問題、想敲碗下一團？</h2>
+      <p>歡迎找我們聊聊 💬</p>
+      <div class="contact-btns">
+        <a class="btn btn-line js-line" href="#">加 LINE 好友</a>
+        <a class="btn btn-ig js-ig" href="#">追蹤 Instagram</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year">2026</span> ㄟ冷水餃・手工現包，用心做每一顆</p>
+  </footer>
+
+  <!-- 手機版：固定在下方的訂購按鈕 -->
+  <a class="float-order js-order" href="#">🥟 我要訂購</a>
+
+  <script src="script.js"></script>
+</body>
+</html>

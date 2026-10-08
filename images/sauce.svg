@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#fff1c9"/>
+<g fill="#ffc93c" opacity=".6"><circle cx="40" cy="40" r="10"/><circle cx="360" cy="60" r="14"/><circle cx="330" cy="250" r="9"/><circle cx="60" cy="240" r="13"/></g>
+<ellipse cx="200" cy="238" rx="80" ry="12" fill="#3b2a20" opacity=".12"/>
+<rect x="140" y="60" width="120" height="30" rx="8" fill="#ffc93c" stroke="#3b2a20" stroke-width="6"/>
+<path d="M135 95 h130 q12 0 12 12 v112 q0 18 -18 18 h-118 q-18 0 -18 -18 v-112 q0 -12 12 -12 z" fill="#e8452f" stroke="#3b2a20" stroke-width="6"/>
+<rect x="152" y="128" width="96" height="62" rx="10" fill="#fffdf5" stroke="#3b2a20" stroke-width="4"/>
+<circle cx="182" cy="152" r="6" fill="#3b2a20"/><circle cx="218" cy="152" r="6" fill="#3b2a20"/>
+<path d="M190 166 q10 9 20 0" fill="none" stroke="#3b2a20" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="166" cy="168" rx="9" ry="5" fill="#ff6b5b" opacity=".7"/><ellipse cx="234" cy="168" rx="9" ry="5" fill="#ff6b5b" opacity=".7"/>
+<text x="200" y="276" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#3b2a20" opacity=".6">干貝小魚乾辣椒醬・照片準備中</text>
+</svg>
